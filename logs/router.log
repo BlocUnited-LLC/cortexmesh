@@ -1,0 +1,8 @@
+2025-04-13 15:04:44,797 - RouterLogger - DEBUG - Generating agent card.
+2025-04-13 15:04:44,797 - RouterLogger - DEBUG - Generating agent card.
+2025-04-13 15:05:02,385 - RouterLogger - DEBUG - Received task via POST: {'task_id': 'test_task_1', 'description': 'Analyze sales data?', 'payload': {}}
+2025-04-13 15:05:02,385 - RouterLogger - DEBUG - Received task via POST: {'task_id': 'test_task_1', 'description': 'Analyze sales data?', 'payload': {}}
+2025-04-13 15:05:02,386 - RouterLogger - DEBUG - Processing task: {'task_id': 'test_task_1', 'description': 'Analyze sales data?', 'payload': {}}
+2025-04-13 15:05:02,386 - RouterLogger - DEBUG - Processing task: {'task_id': 'test_task_1', 'description': 'Analyze sales data?', 'payload': {}}
+2025-04-13 15:05:02,400 - RouterLogger - ERROR - Error processing task: list index out of range
+2025-04-13 15:05:02,400 - RouterLogger - ERROR - Error processing task: list index out of range

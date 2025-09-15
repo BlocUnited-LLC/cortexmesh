@@ -1,0 +1,13 @@
+2025-04-13 15:05:02,386 - AgentLogger - DEBUG - Initialized TaskClarificationAgent with system message: You are a task clarification agent. Analyze the incoming task and output a JSON-formatted outline that includes 'task_id', a boolean 'is_complete', and a list 'clarification_points'. If the task's payload is missing or the description is ambiguous, mark 'is_complete' as false and include appropriate messages; otherwise, mark it as true.
+2025-04-13 15:05:02,390 - AgentLogger - DEBUG - Received task for clarification: {'task_id': 'test_task_1', 'description': 'Analyze sales data?', 'payload': {}}
+2025-04-13 15:05:02,391 - AgentLogger - DEBUG - Sending prompt to LLM: Analyze the task and generate a JSON output in the following format:
+
+{ "task_id": "<task_id>", "is_complete": true/false, "clarification_points": ["message1", "message2"] }
+
+Task Details:
+Task ID: test_task_1
+Description: Analyze sales data?
+Payload: {}
+
+If the payload is missing or the description is ambiguous, set is_complete to false and include clarification messages; otherwise, set is_complete to true with an empty clarification_points array.
+2025-04-13 15:05:02,400 - AgentLogger - ERROR - Error retrieving message history: list index out of range
